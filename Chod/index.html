@@ -9,61 +9,102 @@
 <body>
 
   <!-- HEADER -->
-  <header class="header">
+  <header class="header fade-in">
+
+    <img src="nicolas.jpg" alt="Nicolas Dryzun" class="profile-pic">
+
     <h1>Nicolas Dryzun</h1>
     <p>Front-End Developer</p>
+
     <nav>
       <a href="#projects">Proyectos</a>
+      <a href="#skills">Habilidades</a>
       <a href="#about">Sobre mí</a>
       <a href="#experience">Experiencia</a>
       <a href="#contact">Contacto</a>
     </nav>
   </header>
 
-  <!-- HERO / INTRO -->
-  <section class="hero">
-    <img src="nicolas.jpg" alt="Foto de Nicolas Dryzun" class="profile-pic">
-    <h2>Construyo interfaces simples,<br>modernas y funcionales.</h2>
-    <p>Especializado en HTML, CSS y diseño web responsivo.</p>
+  <!-- BADGES ENTRE LINEAS -->
+  <section class="badges-section">
+    <div class="badges">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Responsive</span>
+    </div>
   </section>
+
+  <!-- HERO -->
+  <section class="hero slide-up">
+    <h2>Construyo interfaces simples,<br>modernas y funcionales.</h2>
+    <p>Desarrollo web enfocado en estructura, claridad y experiencia de usuario.</p>
+
+    <a href="#contact" class="cta-btn">Contactarme</a>
+  </section>
+
+  <div class="divider"></div>
 
   <!-- PROYECTOS -->
   <section id="projects" class="section">
     <h2 class="section-title">Proyectos</h2>
 
     <div class="projects">
-      <div class="project-card">
+      <div class="project-card hover-card shadow">
         <h3>RedMarket</h3>
-        <p>E-commerce ficticio con diseño moderno, catálogo de productos y carrito visual.</p>
+        <p>E-commerce ficticio con diseño moderno y responsive.</p>
         <span>HTML · CSS</span>
       </div>
 
-      <div class="project-card">
+      <div class="project-card hover-card shadow">
         <h3>Dryzun Studio</h3>
-        <p>Landing page para estudio creativo con animaciones suaves y diseño minimalista.</p>
+        <p>Landing page profesional para estudio creativo.</p>
         <span>HTML · CSS</span>
       </div>
 
-      <div class="project-card">
+      <div class="project-card hover-card shadow">
         <h3>TaskFlow</h3>
-        <p>Interfaz web para gestor de tareas personales con enfoque en UX.</p>
+        <p>Interfaz web para gestor de tareas con enfoque UX.</p>
         <span>HTML · CSS</span>
       </div>
     </div>
   </section>
 
+  <div class="divider"></div>
+
+  <!-- HABILIDADES -->
+  <section id="skills" class="section light">
+    <h2 class="section-title">Habilidades</h2>
+
+    <div class="skill">
+      <span>HTML</span>
+      <div class="bar"><div class="level html"></div></div>
+    </div>
+
+    <div class="skill">
+      <span>CSS</span>
+      <div class="bar"><div class="level css"></div></div>
+    </div>
+
+    <div class="skill">
+      <span>Diseño Responsive</span>
+      <div class="bar"><div class="level responsive"></div></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
   <!-- SOBRE MI -->
-  <section id="about" class="section light">
+  <section id="about" class="section">
     <h2 class="section-title">Sobre mí</h2>
     <p class="about-text">
-      Soy un desarrollador front-end en formación con interés en el diseño web,
-      la experiencia de usuario y la creación de interfaces limpias y eficientes.
-      Me gusta transformar ideas en productos visuales claros y funcionales.
+      Soy desarrollador front-end en formación, enfocado en la creación de
+      interfaces limpias, ordenadas y visualmente atractivas.
+      Busco siempre mejorar la experiencia del usuario.
     </p>
   </section>
 
   <!-- EXPERIENCIA -->
-  <section id="experience" class="section">
+  <section id="experience" class="section light">
     <h2 class="section-title">Experiencia</h2>
 
     <div class="experience-item">
@@ -71,7 +112,7 @@
       <p class="exp-place">Freelance · 2024 – Actualidad</p>
       <p>
         Desarrollo de sitios web estáticos, landing pages y portfolios
-        utilizando HTML y CSS, con foco en diseño responsivo.
+        con HTML y CSS.
       </p>
     </div>
 
@@ -79,18 +120,17 @@
       <h3>Prácticas de Programación</h3>
       <p class="exp-place">Proyectos Académicos · 2023</p>
       <p>
-        Maquetado web, uso de buenas prácticas y organización de proyectos
-        front-end.
+        Maquetado web y organización de código front-end.
       </p>
     </div>
   </section>
 
   <!-- CONTACTO -->
-  <section id="contact" class="section light">
+  <section id="contact" class="section">
     <h2 class="section-title">Contacto</h2>
     <p class="contact-text">¿Querés trabajar conmigo?</p>
     <p>Email: <strong>nicolasdryzun@gmail.com</strong></p>
-    <p>GitHub: <strong>github.com/nicolasdryzun</strong></p>
+    <p>GitHub: <strong>github.com/Nicodry20</strong></p>
   </section>
 
   <!-- FOOTER -->

@@ -1,101 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ramiro Mayer – Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramiro Mayer — Visual Designer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
+  <!-- HERO -->
+  <header class="hero">
+    <img src="ramiro.jpg" alt="Ramiro Mayer" class="profile-pic">
+
     <h1>Ramiro Mayer</h1>
-    <p>Diseñador UI / UX</p>
-    <nav>
-      <a href="#projects">Proyectos</a>
-      <a href="#about">Sobre mí</a>
-      <a href="#experience">Experiencia</a>
-      <a href="#contact">Contacto</a>
-    </nav>
+    <p class="role">UI / UX · Visual Designer</p>
+
+    <p class="intro">
+      Diseño interfaces, identidades visuales y experiencias digitales
+      con foco en estética, claridad y coherencia visual.
+    </p>
   </header>
 
-  <!-- HERO / INTRO -->
-  <section class="hero hero-ramiro">
-    <div class="hero-content">
-      <img src="ramiro.jpg" alt="Foto de Ramiro Mayer" class="profile-pic ramiro-pic">
+  <!-- SOBRE MI -->
+  <section class="section about">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy diseñador especializado en productos digitales.
+      Trabajo con Figma e Illustrator desarrollando interfaces,
+      sistemas visuales e identidades gráficas.
+      Me enfoco en el detalle, la composición y la experiencia del usuario.
+    </p>
+  </section>
 
-      <div class="hero-text">
-        <h2>Diseño experiencias visuales<br>claras, modernas y efectivas.</h2>
-        <p>Especialista en Figma, Illustrator y diseño centrado en el usuario.</p>
-      </div>
+  <!-- HERRAMIENTAS -->
+  <section class="section tools">
+    <h2>Herramientas</h2>
+    <ul>
+      <li>Figma</li>
+      <li>Adobe Illustrator</li>
+      <li>Adobe Photoshop</li>
+      <li>Design Systems</li>
+      <li>Prototipado</li>
+    </ul>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section process">
+    <h2>Proceso creativo</h2>
+
+    <div class="step">
+      <span>01</span>
+      <p>Investigación y análisis del problema</p>
+    </div>
+
+    <div class="step">
+      <span>02</span>
+      <p>Wireframes y estructura visual</p>
+    </div>
+
+    <div class="step">
+      <span>03</span>
+      <p>Diseño visual y prototipado</p>
+    </div>
+
+    <div class="step">
+      <span>04</span>
+      <p>Iteración y mejora continua</p>
     </div>
   </section>
 
   <!-- PROYECTOS -->
-  <section id="projects" class="section">
-    <h2 class="section-title">Proyectos</h2>
+  <section class="section projects">
+    <h2>Proyectos seleccionados</h2>
 
-    <div class="projects">
-      <div class="project-card">
-        <h3>GreenUI</h3>
-        <p>Sistema de diseño para productos digitales con foco en accesibilidad.</p>
-        <span>Figma · UI Design</span>
-      </div>
-
-      <div class="project-card">
-        <h3>Mayer Studio</h3>
-        <p>Identidad visual y branding para estudio creativo.</p>
-        <span>Illustrator · Branding</span>
-      </div>
-
-      <div class="project-card">
-        <h3>AppFlow</h3>
-        <p>Prototipo UX interactivo con testing de usuarios.</p>
-        <span>Figma · UX</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOBRE MI -->
-  <section id="about" class="section light">
-    <h2 class="section-title">Sobre mí</h2>
-    <p class="about-text">
-      Soy diseñador UI/UX con experiencia en la creación de interfaces intuitivas,
-      sistemas visuales sólidos y productos digitales centrados en el usuario.
-    </p>
-  </section>
-
-  <!-- EXPERIENCIA -->
-  <section id="experience" class="section">
-    <h2 class="section-title">Experiencia</h2>
-
-    <div class="experience-item">
-      <h3>Diseñador UI / UX Senior</h3>
-      <p class="exp-place">Estudio Creativo · 2022 – Actualidad</p>
-      <p>
-        Diseño de interfaces, wireframes y prototipos interactivos para productos digitales.
-      </p>
+    <div class="project">
+      <h3>Mayer Studio</h3>
+      <p>Identidad visual y concepto gráfico para estudio creativo.</p>
+      <span>Branding · Illustrator</span>
     </div>
 
-    <div class="experience-item">
-      <h3>Diseñador Gráfico</h3>
-      <p class="exp-place">Freelance · 2020 – 2022</p>
-      <p>
-        Desarrollo de identidades visuales, logotipos e ilustraciones.
-      </p>
+    <div class="project">
+      <h3>GreenApp</h3>
+      <p>Diseño UI/UX para aplicación mobile sostenible.</p>
+      <span>UI / UX · Figma</span>
+    </div>
+
+    <div class="project">
+      <h3>Flow Dashboard</h3>
+      <p>Sistema visual para dashboard web corporativo.</p>
+      <span>UI Design · Figma</span>
     </div>
   </section>
 
   <!-- CONTACTO -->
-  <section id="contact" class="section light">
-    <h2 class="section-title">Contacto</h2>
-    <p class="contact-text">¿Tenés un proyecto en mente?</p>
-    <p>Email: <strong>ramiromayer@gmail.com</strong></p>
-    <p>Behance: <strong>behance.net/ramiromayer</strong></p>
+  <section class="section contact">
+    <h2>Contacto</h2>
+    <p>ramiromayer@gmail.com</p>
+    <p>behance.net/ramiromayer</p>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     <p>© 2025 Ramiro Mayer</p>
   </footer>
